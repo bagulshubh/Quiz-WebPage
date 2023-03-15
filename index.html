@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+
+        <img src="Spin-1s-200px.gif" alt="loading" class="load">
+
+        
+        <section class="container">
+
+            <h1>Quiz</h1>
+
+            <div class="score-con">
+
+                <p class="highscore sc">High Score :-  </p>
+
+                <div class="select-cat">
+                    <label for="cat" class="label">Category:-</label>
+                    <select name="cat" class="cat-main" style="font-size: large; display: flex; justify-content: center; align-items: center;">
+
+                        <option value="arts">Arts & Literature</option>
+                        <option value="film">Film & TV</option>
+                        <option value="food">Food & Drink</option>
+                        <option value="general">General Knowledge</option>
+                        <option value="geo">Geography</option>
+                        <option value="history">History</option>
+                        <option value="music">Music</option>
+                        <option value="science">Science</option>
+                        <option value="society">Society & Culture</option>
+                        <option value="sport">Sports & Leisure</option>
+
+
+                    </select>
+                </div>
+
+                <div class="diff-con">
+
+                    <label for="diff" class="diff">Difficulty:-</label>
+                    <select name="diff" class="diff-main" style="font-size: large; display: flex; justify-content: center; align-items: center;">
+
+                        <option value="easy">easy</option>
+                        <option value="medium">medium</option>
+                        <option value="hard">hard</option>
+
+
+                    </select>
+
+                </div>
+
+                <p class="currscore sc">Current Score :- </p>
+
+            </div>
+
+            <div class="quiz-con">
+
+                <div class="question"></div>
+
+                <div class="ans-con">
+
+                    <p class="ans-option">1 </p>
+                    <p class="ans-option">2 </p>
+                    <p class="ans-option">3 </p>
+                    <p class="ans-option">4 </p>
+                    
+                </div>
+
+            </div>
+
+            <div class="btn-con">
+                <button class="skip-btn a-btn">SKIP</button>
+                <button class="next-btn a-btn">NEXT</button>
+            </div> 
+
+        </section>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
